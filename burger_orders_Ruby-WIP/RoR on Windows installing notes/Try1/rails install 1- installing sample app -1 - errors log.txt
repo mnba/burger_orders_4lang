@@ -1,0 +1,156 @@
+Microsoft Windows [Version 6.1.7600]
+(c) Корпорация Майкрософт (Microsoft Corp.), 2009. Все права защищены.
+
+C:\Users\mn>rails new D:\ProgBin\__Site_Melkie_utility\RoR_1_sample
+       exist
+      create  README.rdoc
+      create  Rakefile
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+      create  app
+      create  app/assets/javascripts/application.js
+      create  app/assets/stylesheets/application.css
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/views/layouts/application.html.erb
+      create  app/assets/images/.keep
+      create  app/mailers/.keep
+      create  app/models/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/bundle
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/secrets.yml
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/session_store.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  test/fixtures
+      create  test/fixtures/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/test_helper.rb
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor/assets/javascripts
+      create  vendor/assets/javascripts/.keep
+      create  vendor/assets/stylesheets
+      create  vendor/assets/stylesheets/.keep
+         run  bundle install
+Fetching gem metadata from https://rubygems.org/............
+Fetching version metadata from https://rubygems.org/...
+Fetching dependency metadata from https://rubygems.org/..
+Resolving dependencies.............
+Using rake 10.4.2
+Using i18n 0.7.0
+Installing json 1.8.3 with native extensions
+Installing minitest 5.8.1
+Using thread_safe 0.3.5
+Using tzinfo 1.2.2
+Using activesupport 4.2.4
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile 0.6.2
+Using nokogiri 1.6.6.2
+Using rails-deprecated_sanitizer 1.0.3
+Using rails-dom-testing 1.0.7
+Using loofah 2.0.3
+Using rails-html-sanitizer 1.0.2
+Using actionview 4.2.4
+Using rack 1.6.4
+Using rack-test 0.6.3
+Using actionpack 4.2.4
+Using globalid 0.3.6
+Using activejob 4.2.4
+Using mime-types 2.6.2
+Using mail 2.6.3
+Using actionmailer 4.2.4
+Using activemodel 4.2.4
+Using arel 6.0.3
+Using activerecord 4.2.4
+Installing debug_inspector 0.0.2 with native extensions
+Installing binding_of_caller 0.7.2 with native extensions
+Using bundler 1.10.6
+Installing byebug 6.0.2 with native extensions
+
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    C:/Ruby22/bin/ruby.exe -r ./siteconf20151003-5632-18hh5oa.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+generating byebug-i386-mingw32.def
+compiling breakpoint.c
+In file included from c:/Ruby22/include/ruby-2.2.0/ruby/defines.h:163:0,
+                 from c:/Ruby22/include/ruby-2.2.0/ruby/ruby.h:29,
+                 from c:/Ruby22/include/ruby-2.2.0/ruby.h:33,
+                 from ./byebug.h:4,
+                 from breakpoint.c:1:
+c:/Ruby22/include/ruby-2.2.0/ruby/win32.h:319:44: error: 'struct timespec' decla
+red inside parameter list [-Werror]
+ extern int clock_gettime(clockid_t, struct timespec *);
+                                            ^
+c:/Ruby22/include/ruby-2.2.0/ruby/win32.h:320:43: error: 'struct timespec' decla
+red inside parameter list [-Werror]
+ extern int clock_getres(clockid_t, struct timespec *);
+                                           ^
+cc1.exe: all warnings being treated as errors
+Makefile:237: recipe for target `breakpoint.o' failed
+make: *** [breakpoint.o] Error 1
+
+make failed, exit code 2
+
+Gem files will remain installed in C:/Ruby22/lib/ruby/gems/2.2.0/gems/byebug-6.0
+.2 for inspection.
+Results logged to C:/Ruby22/lib/ruby/gems/2.2.0/extensions/x86-mingw32/2.2.0/bye
+bug-6.0.2/gem_make.out
+An error occurred while installing byebug (6.0.2), and Bundler cannot continue.
+Make sure that `gem install byebug -v '6.0.2'` succeeds before bundling.
+
+C:\Users\mn>rails new D:\ProgBin\__Site_Melkie_utility\RoR_1_sample

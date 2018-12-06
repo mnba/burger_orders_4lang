@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1443604938 source:/home/mn/mn_prj/upwk_burger_orders_4lang/burger_orders_C/main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"../ccl/containers.h"
+
+1443529593 /home/mn/mn_prj/upwk_burger_orders_4lang/ccl/containers.h
+	<string.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<wchar.h>
+	"stdint.h"
+	<stdint.h>
+	<limits.h>
+	"stringlist.h"
+	"wstringlist.h"
+	"valarray.h"
+
+1443529593 /home/mn/mn_prj/upwk_burger_orders_4lang/ccl/stringlist.h
+	"stringlistgen.h"
+
+1443529593 /home/mn/mn_prj/upwk_burger_orders_4lang/ccl/stringlistgen.h
+	"containers.h"
+
+1443529593 /home/mn/mn_prj/upwk_burger_orders_4lang/ccl/wstringlist.h
+	<wchar.h>
+	"stringlistgen.h"
+
+1443529593 /home/mn/mn_prj/upwk_burger_orders_4lang/ccl/valarray.h
+	"valarraygen.h"
+	"valarraygen.h"
+	"valarraygen.h"
+	"valarraygen.h"
+	"valarraygen.h"
+	"valarraygen.h"
+	"valarraygen.h"
+	"valarraygen.h"
+	"valarraygen.h"
+	"valarraygen.h"
+
+1443529593 /home/mn/mn_prj/upwk_burger_orders_4lang/ccl/valarraygen.h
+
+1443562938 source:/home/mn/mn_prj/upwk_burger_orders_4lang/burger_orders_C/concatn.c
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	<stdbool.h>
+	<stdio.h>
+

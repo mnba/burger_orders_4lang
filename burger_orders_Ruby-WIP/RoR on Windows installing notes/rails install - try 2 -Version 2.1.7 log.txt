@@ -1,0 +1,157 @@
+
+C:\> gem install rails
+C:\> rails new D:\ProgBin\__Site_Melkie_utility\RoR_1_sample
+
+rails new path/to/your/new/application
+cd path/to/your/new/application
+rails server
+
+В общем версию ruby 2.1.7 заработала - без проблем. т.е. 2.2.3 включительно - для windows-a сырая.
+
+
+===
+Microsoft Windows [Version 6.1.7600]
+(c) Корпорация Майкрософт (Microsoft Corp.), 2009. Все права защищены.
+
+C:\Users\mn>gem install rails
+Fetching: thread_safe-0.3.5.gem (100%)
+Successfully installed thread_safe-0.3.5
+Fetching: minitest-5.8.1.gem (100%)
+Successfully installed minitest-5.8.1
+Fetching: tzinfo-1.2.2.gem (100%)
+Successfully installed tzinfo-1.2.2
+Fetching: i18n-0.7.0.gem (100%)
+Successfully installed i18n-0.7.0
+Fetching: activesupport-4.2.4.gem (100%)
+Successfully installed activesupport-4.2.4
+Fetching: rails-deprecated_sanitizer-1.0.3.gem (100%)
+Successfully installed rails-deprecated_sanitizer-1.0.3
+Fetching: mini_portile-0.7.0.rc4.gem (100%)
+Successfully installed mini_portile-0.7.0.rc4
+Fetching: nokogiri-1.6.7.rc3-x86-mingw32.gem (100%)
+Nokogiri is built with the packaged libraries: libxml2-2.9.2, libxslt-1.1.28, zl
+ib-1.2.8, libiconv-1.14.
+Successfully installed nokogiri-1.6.7.rc3-x86-mingw32
+Fetching: rails-dom-testing-1.0.7.gem (100%)
+Successfully installed rails-dom-testing-1.0.7
+Fetching: crass-1.0.2.gem (100%)
+Successfully installed crass-1.0.2
+Fetching: loofah-2.1.0.rc1.gem (100%)
+Successfully installed loofah-2.1.0.rc1
+Fetching: rails-html-sanitizer-1.0.2.gem (100%)
+Successfully installed rails-html-sanitizer-1.0.2
+Fetching: erubis-2.7.0.gem (100%)
+Successfully installed erubis-2.7.0
+Fetching: builder-3.2.2.gem (100%)
+Successfully installed builder-3.2.2
+Fetching: actionview-4.2.4.gem (100%)
+Successfully installed actionview-4.2.4
+Fetching: rack-1.6.4.gem (100%)
+Successfully installed rack-1.6.4
+Fetching: rack-test-0.6.3.gem (100%)
+Successfully installed rack-test-0.6.3
+Fetching: actionpack-4.2.4.gem (100%)
+Successfully installed actionpack-4.2.4
+Fetching: activemodel-4.2.4.gem (100%)
+Successfully installed activemodel-4.2.4
+Fetching: arel-6.0.3.gem (100%)
+Successfully installed arel-6.0.3
+Fetching: activerecord-4.2.4.gem (100%)
+Successfully installed activerecord-4.2.4
+Fetching: mime-types-2.6.2.gem (100%)
+Successfully installed mime-types-2.6.2
+Fetching: mail-2.6.3.gem (100%)
+Successfully installed mail-2.6.3
+Fetching: globalid-0.3.6.gem (100%)
+Successfully installed globalid-0.3.6
+Fetching: activejob-4.2.4.gem (100%)
+Successfully installed activejob-4.2.4
+Fetching: actionmailer-4.2.4.gem (100%)
+Successfully installed actionmailer-4.2.4
+Fetching: thor-0.19.1.gem (100%)
+Successfully installed thor-0.19.1
+Fetching: railties-4.2.4.gem (100%)
+Successfully installed railties-4.2.4
+Fetching: bundler-1.10.6.gem (100%)
+Successfully installed bundler-1.10.6
+Fetching: sprockets-3.3.5.gem (100%)
+Successfully installed sprockets-3.3.5
+Fetching: sprockets-rails-3.0.0.beta2.gem (100%)
+Successfully installed sprockets-rails-3.0.0.beta2
+Fetching: rails-4.2.4.gem (100%)
+Successfully installed rails-4.2.4
+Parsing documentation for actionmailer-4.2.4
+Installing ri documentation for actionmailer-4.2.4
+Parsing documentation for actionpack-4.2.4
+Installing ri documentation for actionpack-4.2.4
+Parsing documentation for actionview-4.2.4
+Installing ri documentation for actionview-4.2.4
+Parsing documentation for activejob-4.2.4
+Installing ri documentation for activejob-4.2.4
+Parsing documentation for activemodel-4.2.4
+Installing ri documentation for activemodel-4.2.4
+Parsing documentation for activerecord-4.2.4
+Installing ri documentation for activerecord-4.2.4
+Parsing documentation for activesupport-4.2.4
+Installing ri documentation for activesupport-4.2.4
+Parsing documentation for arel-6.0.3
+Installing ri documentation for arel-6.0.3
+Parsing documentation for builder-3.2.2
+Installing ri documentation for builder-3.2.2
+Parsing documentation for bundler-1.10.6
+Installing ri documentation for bundler-1.10.6
+Parsing documentation for crass-1.0.2
+Installing ri documentation for crass-1.0.2
+Parsing documentation for erubis-2.7.0
+Installing ri documentation for erubis-2.7.0
+Parsing documentation for globalid-0.3.6
+Installing ri documentation for globalid-0.3.6
+Parsing documentation for i18n-0.7.0
+Installing ri documentation for i18n-0.7.0
+Parsing documentation for loofah-2.1.0.rc1
+Installing ri documentation for loofah-2.1.0.rc1
+Parsing documentation for mail-2.6.3
+Installing ri documentation for mail-2.6.3
+Parsing documentation for mime-types-2.6.2
+Installing ri documentation for mime-types-2.6.2
+Parsing documentation for mini_portile-0.7.0.rc4
+Installing ri documentation for mini_portile-0.7.0.rc4
+Parsing documentation for minitest-5.8.1
+Installing ri documentation for minitest-5.8.1
+Parsing documentation for nokogiri-1.6.7.rc3-x86-mingw32
+Installing ri documentation for nokogiri-1.6.7.rc3-x86-mingw32
+Parsing documentation for rack-1.6.4
+Installing ri documentation for rack-1.6.4
+Parsing documentation for rack-test-0.6.3
+Installing ri documentation for rack-test-0.6.3
+Parsing documentation for rails-4.2.4
+Installing ri documentation for rails-4.2.4
+Parsing documentation for rails-deprecated_sanitizer-1.0.3
+Installing ri documentation for rails-deprecated_sanitizer-1.0.3
+Parsing documentation for rails-dom-testing-1.0.7
+Installing ri documentation for rails-dom-testing-1.0.7
+Parsing documentation for rails-html-sanitizer-1.0.2
+Installing ri documentation for rails-html-sanitizer-1.0.2
+Parsing documentation for railties-4.2.4
+Installing ri documentation for railties-4.2.4
+Parsing documentation for sprockets-3.3.5
+Installing ri documentation for sprockets-3.3.5
+Parsing documentation for sprockets-rails-3.0.0.beta2
+Installing ri documentation for sprockets-rails-3.0.0.beta2
+Parsing documentation for thor-0.19.1
+Installing ri documentation for thor-0.19.1
+Parsing documentation for thread_safe-0.3.5
+Installing ri documentation for thread_safe-0.3.5
+Parsing documentation for tzinfo-1.2.2
+Installing ri documentation for tzinfo-1.2.2
+Done installing documentation for actionmailer, actionpack, actionview, activejo
+b, activemodel, activerecord, activesupport, arel, builder, bundler, crass, erub
+is, globalid, i18n, loofah, mail, mime-types, mini_portile, minitest, nokogiri,
+rack, rack-test, rails, rails-deprecated_sanitizer, rails-dom-testing, rails-htm
+l-sanitizer, railties, sprockets, sprockets-rails, thor, thread_safe, tzinfo aft
+er 944 seconds
+32 gems installed
+
+C:\Users\mn>
+===
+

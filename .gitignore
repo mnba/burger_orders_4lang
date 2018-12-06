@@ -1,0 +1,31 @@
+#input: (Task description)
+URL-1.txt
+Task.docx
+Task+Upwork_desc.txt
+#Output:
+out2-all.tar.gz
+screenshots.zip
+# helper lib, not needed here:
+py2java.tar.gz
+#Python lang part:
+*.pyc
+#  task description:
+burger_orders_Python/URL-1.txt
+burger_orders_Python/.idea
+#Java lang part:
+*.class
+#C lang part:
+burger_orders_C/bin/Debug
+burger_orders_C/bin/Release
+burger_orders_C/obj/
+#ccl - C containers library:
+#ccl/.git/
+#ccl/*.o
+#ccl/*.a
+#ccl/*.pdf
+# test_ccl
+test_ccl/bin/
+test_ccl/obj/
+# real task desc, with passwd անգլերեն֊ա֊տառը
+!Task_Desc+origTaskURL.zip
+
