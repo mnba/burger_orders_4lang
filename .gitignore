@@ -18,7 +18,7 @@ burger_orders_Python/.idea
 burger_orders_C/bin/Debug
 burger_orders_C/bin/Release
 burger_orders_C/obj/
-#ccl - C containers library:
+#ccl - C containers library: But the next 4 "ccl/" lines wasn't working, so I commented out them
 #ccl/.git/
 #ccl/*.o
 #ccl/*.a
